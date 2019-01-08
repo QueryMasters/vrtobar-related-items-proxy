@@ -1,2 +1,1 @@
-# vrtobar-related-items-proxy
-Related Items Proxy
+# related-items-proxy
