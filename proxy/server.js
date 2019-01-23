@@ -20,7 +20,7 @@ app.get('/related/id/:id', (req, res) => {
 });
 
 app.get('/frequent/id/:id', (req, res) => {
-  axios.get(`http://13.58.45.58:1337/api/frequent/id/${ req.params.id }`)
+  axios.get(`http://13.58.45.58:1337/frequent/id/${ req.params.id }`)
   .then(frequentlyTogether => res.status(200).send(frequentlyTogether.data))
   .catch(() => console.log('ERROR IN PROXY SERVER /API/FREQUENT/:id'));
 });
